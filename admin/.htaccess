@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin panel"
+AuthUserFile /Applications/XAMPP/xamppfiles/htdocs/blog/admin/.htpasswd
+Require valid-user
