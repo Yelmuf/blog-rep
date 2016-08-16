@@ -17,12 +17,12 @@
 
                 <div class="form-group">
                     <label>Название статьи</label>
-                    <input type="text" class="form-control"  name="title"  value="<?=$article['title']?>">
+                    <input type="text" class="form-control"  placeholder="Title" name="title"  value="<?=$article['title']?>">
                 </div>
                   <div class="form-group">
                     <label>Дата создания</label>
                     <div class="input-group">
-                      <input type="date" class="form-control" name="date" value="value="<?=$article['date']?>"">
+                      <input type="date" class="form-control" name="date" value="<?=$article['date']?>">
                     </div>
                   </div>
                   <div class="form-group">

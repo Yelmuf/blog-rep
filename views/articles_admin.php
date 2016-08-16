@@ -26,10 +26,10 @@
                     <td><?=$a['date']?></td>
                     <td><?=$a['title']?></td>
                     <td>
-                        <a href="index.php?action=edit&id=><?=$a['id']?>">Edit</a>
+                        <a href="index.php?action=edit&id=<?=$a['id']?>">Edit</a>
                     </td>
                     <td>
-                       <a href="index.php?action=delete&id=><?=$a['id']?>">Delete</a>
+                       <a href="index.php?action=delete&id=<?=$a['id']?>">Delete</a>
                     </td>
 
                 </tr>

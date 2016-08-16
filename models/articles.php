@@ -59,11 +59,11 @@ function articles_edit($link,$id,$title,$date,$content){
     $date = trim($date);
     $id = (int)$id;
     
-    if($title='')
+    if($title == '')
         return false;
     
-    $t="UPDATE articles SET title='%s', content ='%s', date = '%s' WHERE id='%id' ";
-     $query = sprintf($template_update, 
+    $t="UPDATE articles SET title='%s', content ='%s', date = '%s' WHERE id='%d' ";
+     $query = sprintf($t, 
                          mysqli_real_escape_string($link, $title),
                          mysqli_real_escape_string($link, $content),
                          mysqli_real_escape_string($link, $date),
