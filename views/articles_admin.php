@@ -11,8 +11,13 @@
     <body>
     <div class="container">
         <h1>My First Blog</h1>
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
+        <li class="breadcrumb-item active">Administration panel</li>
+      </ol>  
+        <a href="index.php?action=add" class="btn btn-primary">Add post</a>
         <div class="body">
-            <a href="index.php?action=add">Add post</a>
+            
             <table class="admin-table">
 
                 <tr>
@@ -41,10 +46,12 @@
        
            
         </div>
-        <footer>
-        <p>My First Blog <br>Copyright &copy; 2015</p>
-        </footer>
         </div>
+         <footer>
+    <div class="panel panel-primary">
+    <div class="panel-heading">My First Blog <br>Copyright &copy; 2015</div>
+    </div>
+   </footer>
     </body>
-
+   
 </html>
